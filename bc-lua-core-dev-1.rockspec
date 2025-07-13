@@ -19,5 +19,5 @@ dependencies = {
   "ansicolors >= 1.0.2-3"
 }
 test = {
-  type = "busted",
+  type = "busted"
 }
