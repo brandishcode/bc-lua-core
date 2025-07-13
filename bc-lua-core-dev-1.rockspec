@@ -19,9 +19,5 @@ dependencies = {
   "ansicolors >= 1.0.2-3"
 }
 test = {
-  type = "command",
-  command = "busted"
-}
-test_dependencies = {
-  "busted"
+  type = "busted",
 }
