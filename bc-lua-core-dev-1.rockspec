@@ -11,12 +11,14 @@ description = {
 build = {
    type = "builtin",
    modules = {
-      ["bcappender"] = "lua/appender.lua"
+      ["bcappender"] = "lua/appender.lua",
+      ["bcprocess"] = "lua/process.lua"
    }
 }
 dependencies = {
   "lualogging >= 1.8.2",
-  "ansicolors >= 1.0.2-3"
+  "ansicolors >= 1.0.2-3",
+  "luv >= 1.51.0-1",
 }
 test = {
   type = "busted"

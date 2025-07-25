@@ -18,5 +18,6 @@ pkgs.luaPackages.buildLuarocksPackage {
     pkgs.luaPackages.ansicolors
     pkgs.luaPackages.lualogging
     pkgs.luaPackages.busted
+    pkgs.luaPackages.luv
   ];
 }

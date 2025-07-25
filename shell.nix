@@ -8,6 +8,7 @@ let
       lualogging
       ansicolors
       busted
+      luv
     ]
   );
 in

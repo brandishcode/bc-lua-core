@@ -24,6 +24,9 @@
         formatter = bcformatter.formatter.${system};
         devShells.default = import ./shell.nix { inherit pkgs; };
         packages.default = import ./default.nix { inherit pkgs; };
+        checks.default = import ./checks.nix {
+          inherit pkgs;
+        };
 
       }
     );
