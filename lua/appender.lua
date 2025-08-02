@@ -88,7 +88,7 @@ local function setup(opts)
     logLevel = log.INFO,
     destination = 'stdout',
     logPatterns = {
-      [log.INFO] = ansicolors('%{reset}%message'),
+      [log.INFO] = 'message',
     },
   }
 end
